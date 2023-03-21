@@ -26,3 +26,25 @@ https://easyai.tech/ai-definition/attention/
 Feature extractor  (beat CNN and RNN)  
 https://zhuanlan.zhihu.com/p/54743941  
 https://luweikxy.gitbook.io/machine-learning-notes/self-attention-and-transformer  
+
+# March 20
+* ICL（In-context learning）  
+上下文学习(情景学习)，区别于finetuning, 不对模型做任何的微调(freeze parameters)，直接将下游任务的输入输出拼接起来（pair:input+output）作为一个prompt(可以取不完整的1个示例，完整的1个示例，或者几个示例)，引导模型, 根据prompt和其他的input，给出对应的output。 
+https://juejin.cn/post/7200699300338499641  
+https://arxiv.org/pdf/2005.14165.pdf  
+
+* GPT  
+  * GPT1  
+  无监督的预训练+有监督的微调（有监督的微调时的loss包括无监督的loss和有监督的loss两部分） 
+  * GPT2  
+  通过海量数据和大量参数训练出来的词向量模型有迁移到其它类别任务中而不需要额外的训练  
+  * GPT3  
+  更海量的数据  
+![image](https://user-images.githubusercontent.com/65893273/226494674-b82d660d-8710-4426-9cf5-30319f885fc3.png)  
+https://zhuanlan.zhihu.com/p/350017443  
+https://www.bilibili.com/video/BV1AF411b7xQ/?from=search&seid=11776465756495926209&spm_id_from=333.337.0.0&vd_source=c166b10ceb03a841b76593a8a068deb2  
+
+# March 21
+zero shot   
+few shot  
+数据蒸馏  
