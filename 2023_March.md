@@ -40,6 +40,7 @@ https://arxiv.org/pdf/2005.14165.pdf
   通过海量数据和大量参数训练出来的词向量模型有迁移到其它类别任务中而不需要额外的训练  
   * GPT3  
   更海量的数据  
+
 ![image](https://user-images.githubusercontent.com/65893273/226494674-b82d660d-8710-4426-9cf5-30319f885fc3.png)  
 https://zhuanlan.zhihu.com/p/350017443  
 https://www.bilibili.com/video/BV1AF411b7xQ/?from=search&seid=11776465756495926209&spm_id_from=333.337.0.0&vd_source=c166b10ceb03a841b76593a8a068deb2  
